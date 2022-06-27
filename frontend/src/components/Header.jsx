@@ -13,7 +13,7 @@ const {user} = useSelector((state) => state.auth)
   const onLogout = () => {
     dispatch(logout())
     dispatch(reset())
-    navigate('/')
+    navigate('/login')
   }
 
 
